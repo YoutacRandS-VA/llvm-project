@@ -3,7 +3,7 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "monthly"
+      interval: "5 minutes"
     groups:
       github-actions:
         patterns:
@@ -11,7 +11,7 @@ updates:
   - package-ecosystem: "pip"
     directory: "/llvm/docs"
     schedule:
-      interval: "monthly"
+      interval: "5 minutes"
     groups:
       llvm-docs-requirements:
         patterns:
